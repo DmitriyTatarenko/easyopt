@@ -1,0 +1,209 @@
+.result {
+    position: relative;
+    min-height: 400px;
+    background-color: #0d3a71;
+    padding-top: 40px;
+    &__up-element {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: $main_color;
+        border-radius: 100%;
+        cursor: pointer;
+        position: absolute;
+        bottom: 30px;
+        right: 40px;
+        
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f062";
+            font-weight: 700;
+            color: #fff;
+            position: absolute;
+            font-size: 24px;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__text {
+       
+        position: relative;
+        border-radius: 20px;
+        display: block;
+        min-height: 400px;
+        width: 80%;
+        background-color: #fff;
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 30px;
+        margin: 0 auto;
+        
+        padding-top: 20px;
+        &_item {
+          
+            text-align: center;
+            margin-bottom: 20px;
+            text-decoration: solid 1px bottom red;
+        }
+        &_title {
+            color: #0d3a71;
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            padding-top: 20px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        &_btn {
+           
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            cursor: pointer;
+            background-color: green;
+            width: 257px;
+            height: 40px;
+            border: none;
+            border-radius: 50px;
+            
+
+
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+           
+        }
+        &_summ {
+            font-weight: 400;
+            font-size: 24px;
+            position: absolute;
+            bottom: 20px;
+            right: 40px;
+            color: red;
+        }
+        
+    }
+    
+}
+@media (max-width: 1360px) {
+    .result__up-element{
+        right: 30px;
+    }
+}
+
+@media (max-width: 1157px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 1140px) {
+    .result {
+        &__text {
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 720px;
+    }
+    .result {
+        &__text {
+            &_summ {
+                font-size: 20px;
+                right: 10px;
+                bottom: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+@media (max-width: 900px) {
+    .result {
+        &__text {
+           width: 80%;
+          
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        max-width: 576px;
+    }
+    .result {
+        &__up-element {
+            width: 35px;
+            height: 35px;
+            &::before {
+                font-size: 16px;
+            }
+        }
+        &__text{
+            width: 80%;
+            &_item {
+                font-size: 18px;
+            }
+           
+            &_btn {
+                font-size: 12px;
+                width: 200px;
+            }
+            &_summ {
+                font-size: 16px;
+                bottom: 22px;
+                right: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 320px;
+    }
+    .result {
+        &__up-element {
+            width: 35px;
+            height: 35px;
+            &::before {
+                font-size: 16px;
+            }
+        }
+        &__text {
+            width: 90%;
+            padding-bottom: 35px;
+            &_btn {
+                height: 30px;
+                width: 170px;
+                text-transform: none;
+                bottom: 30px;
+                &:active {
+                    border: none;
+                }
+            }
+            &_item {
+                font-size: 11px;
+                font-weight: 700;
+            }
+            &_summ {
+                font-weight: 600;
+                font-size: 16px;
+                bottom: 10px;
+                right: 50%;
+                transform: translateX(50%);
+            }
+        }
+    }
+    @media (max-width: 420px) {
+        .result {
+            &__up-element {
+                right: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+@import './base/variables.scss';
+
+
+//BLOCKS
+@import './blocks/header.scss';
+@import './blocks/choose.scss';
+@import './blocks/result.scss';
+@import './blocks/sale.scss';
+@import './blocks/discount.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+}

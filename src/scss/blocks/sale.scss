@@ -1,0 +1,61 @@
+.sale {
+    background-color: #e2c35b;
+    &__wrapper {
+        padding: 0 30px 30px 30px;
+        min-height: 400px;
+        
+     
+        
+        &_title {
+            height: 50px;
+            margin: 0;
+            padding-top: 20px;
+            text-align: center;
+            background-color: #12293c;
+            color: $main_color;
+            span {
+                color: red;
+            }
+        }
+        &_subtitle {
+            text-align: center;
+            
+        }
+        &_items {
+            display: flex;
+            justify-content: space-between;
+            
+            &-item {
+                width: 200px;
+                display: flex;
+                flex-direction: column;
+               
+                &-title {
+                    font-weight: 700;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+    
+                &-select {  
+                    position: relative;
+                    width: 200px;
+                    margin-bottom: 10px;
+                   
+                }
+                &-input {
+                    position: absolute;
+                    width: 40px;
+                    height: 15px;
+                    bottom: 20px;
+                }
+                &-create-select {
+                    width: 200px;
+                    height: 30px;
+                    background-color: #12293c;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

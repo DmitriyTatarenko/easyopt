@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="../dist/css/style.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <title>EasyOpt</title>
+</head>
+<body>
+  <section class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <img src="./images/logo.jpg" alt="Logo" class="header__wrapper_logo">
+        <!-- <a href="sale.html" class="header__wrapper_link"><button>SALE!</button></a> -->
+      
+      </div>
+    </div>
+  </section>
+
+  <section class="choose">
+    <div class="container">
+        <div class="choose__wrapper">
+            <div class="choose__wrapper_item laktalis-item">
+                <div class="choose__wrapper_item-title">Лакталис</div>
+
+               <div class="choose__wrapper_item-select laktalis-select">
+                <select id="1" data-val="" class="choose__wrapper_item-select-list">
+                  <option value="0" selected class="choose__wrapper_item-select-option">-/-</option>
+                  <option value="11.7" class="choose__wrapper_item-select-option">Айран Лактель</option>
+                  <option value="45.9" class="choose__wrapper_item-select-option">Вершки 10%</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Ананас 200г</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Полуниця 200г</option>
+                  <option value="18.9" class="choose__wrapper_item-select-option">Десерт Віденські вафлі 130г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 200г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 300г</option>
+                  <option value="40.5" class="choose__wrapper_item-select-option">Десерт Вишня 300г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 300г</option>
+                  <option value="43.2" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі 350г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Персик 200г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Полуниця 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі-Шоколад 200г</option>
+                  <option value="18.45" class="choose__wrapper_item-select-option">Десерт Фанні 150г</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Ананас</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Л.Ягода</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ан.Диня</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Перс.Маракуя</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Полуниця</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ківі</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Банан-Лічі</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Вишня</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Л.Ягода</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Манго</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Персик</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Полуниця</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Персик</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Малина</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Ябл-Груша</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Банан</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Вишня</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Персик</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Л.Ягода</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Персик</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Полун-Банан</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Малина</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Чорниця</option>
+                  <option value="34.65" class="choose__wrapper_item-select-option">Кефір Лактонія 0,78</option>
+                  <option value="13.05" class="choose__wrapper_item-select-option">Кефір Фанні 0,5%</option>
+                  <option value="15.3" class="choose__wrapper_item-select-option">Кефір Фанні 2,5%</option>
+                  <option value="42.3" class="choose__wrapper_item-select-option">Молоко Лактель 3,2% 1л</option>
+                  <option value="37.8" class="choose__wrapper_item-select-option">Молоко Лактель 2,5% 1л</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Сир 9% Курага</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сир Шостка 150г Вершковий ст.</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Зелень</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Гриби</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Дружба</option>
+                  <option value="44.1" class="choose__wrapper_item-select-option">Сир В.Корівка 150г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Гриби</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Вершковий</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Голандський</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Дружба</option>
+                  <option value="11.6" class="choose__wrapper_item-select-option">Сир Шостка 70г Дружба</option>
+                  <option value="56.7" class="choose__wrapper_item-select-option">Сир Творожна Традиція 5% Флоу-Пак</option>
+                  <option value="63" class="choose__wrapper_item-select-option">Сир Творожна Традиція 9% Термо</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Вишня</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Полуниця</option>
+                  <option value="32.4" class="choose__wrapper_item-select-option">Сметана п/е 15%</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Сметана п/е 20%</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сметана стакан 15%</option>
+                  <option value="26" class="choose__wrapper_item-select-option">Сметана стакан 200г 20%</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Сметана стакан 20%</option>
+              </select>
+               </div>
+
+               <div class="choose__wrapper_item-select laktalis-select">
+                <select id="1" data-val="" class="choose__wrapper_item-select-list">
+                  <option value="0" selected class="choose__wrapper_item-select-option">-/-</option>
+                  <option value="11.7" class="choose__wrapper_item-select-option">Айран Лактель</option>
+                  <option value="45.9" class="choose__wrapper_item-select-option">Вершки 10%</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Ананас 200г</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Полуниця 200г</option>
+                  <option value="18.9" class="choose__wrapper_item-select-option">Десерт Віденські вафлі 130г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 200г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 300г</option>
+                  <option value="40.5" class="choose__wrapper_item-select-option">Десерт Вишня 300г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 300г</option>
+                  <option value="43.2" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі 350г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Персик 200г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Полуниця 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі-Шоколад 200г</option>
+                  <option value="18.45" class="choose__wrapper_item-select-option">Десерт Фанні 150г</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Ананас</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Л.Ягода</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ан.Диня</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Перс.Маракуя</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Полуниця</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ківі</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Банан-Лічі</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Вишня</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Л.Ягода</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Манго</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Персик</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Полуниця</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Персик</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Малина</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Ябл-Груша</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Банан</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Вишня</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Персик</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Л.Ягода</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Персик</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Полун-Банан</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Малина</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Чорниця</option>
+                  <option value="34.65" class="choose__wrapper_item-select-option">Кефір Лактонія 0,78</option>
+                  <option value="13.05" class="choose__wrapper_item-select-option">Кефір Фанні 0,5%</option>
+                  <option value="15.3" class="choose__wrapper_item-select-option">Кефір Фанні 2,5%</option>
+                  <option value="42.3" class="choose__wrapper_item-select-option">Молоко Лактель 3,2% 1л</option>
+                  <option value="37.8" class="choose__wrapper_item-select-option">Молоко Лактель 2,5% 1л</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Сир 9% Курага</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сир Шостка 150г Вершковий ст.</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Зелень</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Гриби</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Дружба</option>
+                  <option value="44.1" class="choose__wrapper_item-select-option">Сир В.Корівка 150г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Гриби</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Вершковий</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Голандський</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Дружба</option>
+                  <option value="11.6" class="choose__wrapper_item-select-option">Сир Шостка 70г Дружба</option>
+                  <option value="56.7" class="choose__wrapper_item-select-option">Сир Творожна Традиція 5% Флоу-Пак</option>
+                  <option value="63" class="choose__wrapper_item-select-option">Сир Творожна Традиція 9% Термо</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Вишня</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Полуниця</option>
+                  <option value="32.4" class="choose__wrapper_item-select-option">Сметана п/е 15%</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Сметана п/е 20%</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сметана стакан 15%</option>
+                  <option value="26" class="choose__wrapper_item-select-option">Сметана стакан 200г 20%</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Сметана стакан 20%</option>
+              </select>
+               </div>
+
+               <div class="choose__wrapper_item-select laktalis-select">
+                <select id="1" data-val="" class="choose__wrapper_item-select-list">
+                  <option value="0" selected class="choose__wrapper_item-select-option">-/-</option>
+                  <option value="11.7" class="choose__wrapper_item-select-option">Айран Лактель</option>
+                  <option value="45.9" class="choose__wrapper_item-select-option">Вершки 10%</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Ананас 200г</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Полуниця 200г</option>
+                  <option value="18.9" class="choose__wrapper_item-select-option">Десерт Віденські вафлі 130г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 200г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 300г</option>
+                  <option value="40.5" class="choose__wrapper_item-select-option">Десерт Вишня 300г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 300г</option>
+                  <option value="43.2" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі 350г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Персик 200г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Полуниця 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі-Шоколад 200г</option>
+                  <option value="18.45" class="choose__wrapper_item-select-option">Десерт Фанні 150г</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Ананас</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Л.Ягода</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ан.Диня</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Перс.Маракуя</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Полуниця</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ківі</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Банан-Лічі</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Вишня</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Л.Ягода</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Манго</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Персик</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Полуниця</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Персик</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Малина</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Ябл-Груша</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Банан</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Вишня</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Персик</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Л.Ягода</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Персик</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Полун-Банан</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Малина</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Чорниця</option>
+                  <option value="34.65" class="choose__wrapper_item-select-option">Кефір Лактонія 0,78</option>
+                  <option value="13.05" class="choose__wrapper_item-select-option">Кефір Фанні 0,5%</option>
+                  <option value="15.3" class="choose__wrapper_item-select-option">Кефір Фанні 2,5%</option>
+                  <option value="42.3" class="choose__wrapper_item-select-option">Молоко Лактель 3,2% 1л</option>
+                  <option value="37.8" class="choose__wrapper_item-select-option">Молоко Лактель 2,5% 1л</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Сир 9% Курага</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сир Шостка 150г Вершковий ст.</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Зелень</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Гриби</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Дружба</option>
+                  <option value="44.1" class="choose__wrapper_item-select-option">Сир В.Корівка 150г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Гриби</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Вершковий</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Голандський</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Дружба</option>
+                  <option value="11.6" class="choose__wrapper_item-select-option">Сир Шостка 70г Дружба</option>
+                  <option value="56.7" class="choose__wrapper_item-select-option">Сир Творожна Традиція 5% Флоу-Пак</option>
+                  <option value="63" class="choose__wrapper_item-select-option">Сир Творожна Традиція 9% Термо</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Вишня</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Полуниця</option>
+                  <option value="32.4" class="choose__wrapper_item-select-option">Сметана п/е 15%</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Сметана п/е 20%</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сметана стакан 15%</option>
+                  <option value="26" class="choose__wrapper_item-select-option">Сметана стакан 200г 20%</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Сметана стакан 20%</option>
+              </select>
+               </div>
+
+               <div class="choose__wrapper_item-select laktalis-select">
+                <select id="1" data-val="" class="choose__wrapper_item-select-list">
+                  <option value="0" selected class="choose__wrapper_item-select-option">-/-</option>
+                  <option value="11.7" class="choose__wrapper_item-select-option">Айран Лактель</option>
+                  <option value="45.9" class="choose__wrapper_item-select-option">Вершки 10%</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Ананас 200г</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Полуниця 200г</option>
+                  <option value="18.9" class="choose__wrapper_item-select-option">Десерт Віденські вафлі 130г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 200г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 300г</option>
+                  <option value="40.5" class="choose__wrapper_item-select-option">Десерт Вишня 300г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 300г</option>
+                  <option value="43.2" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі 350г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Персик 200г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Полуниця 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі-Шоколад 200г</option>
+                  <option value="18.45" class="choose__wrapper_item-select-option">Десерт Фанні 150г</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Ананас</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Л.Ягода</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ан.Диня</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Перс.Маракуя</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Полуниця</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ківі</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Банан-Лічі</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Вишня</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Л.Ягода</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Манго</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Персик</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Полуниця</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Персик</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Малина</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Ябл-Груша</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Банан</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Вишня</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Персик</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Л.Ягода</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Персик</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Полун-Банан</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Малина</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Чорниця</option>
+                  <option value="34.65" class="choose__wrapper_item-select-option">Кефір Лактонія 0,78</option>
+                  <option value="13.05" class="choose__wrapper_item-select-option">Кефір Фанні 0,5%</option>
+                  <option value="15.3" class="choose__wrapper_item-select-option">Кефір Фанні 2,5%</option>
+                  <option value="42.3" class="choose__wrapper_item-select-option">Молоко Лактель 3,2% 1л</option>
+                  <option value="37.8" class="choose__wrapper_item-select-option">Молоко Лактель 2,5% 1л</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Сир 9% Курага</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сир Шостка 150г Вершковий ст.</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Зелень</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Гриби</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Дружба</option>
+                  <option value="44.1" class="choose__wrapper_item-select-option">Сир В.Корівка 150г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Гриби</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Вершковий</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Голандський</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Дружба</option>
+                  <option value="11.6" class="choose__wrapper_item-select-option">Сир Шостка 70г Дружба</option>
+                  <option value="56.7" class="choose__wrapper_item-select-option">Сир Творожна Традиція 5% Флоу-Пак</option>
+                  <option value="63" class="choose__wrapper_item-select-option">Сир Творожна Традиція 9% Термо</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Вишня</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Полуниця</option>
+                  <option value="32.4" class="choose__wrapper_item-select-option">Сметана п/е 15%</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Сметана п/е 20%</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сметана стакан 15%</option>
+                  <option value="26" class="choose__wrapper_item-select-option">Сметана стакан 200г 20%</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Сметана стакан 20%</option>
+              </select>
+               </div>
+
+               <div class="choose__wrapper_item-select laktalis-select">
+                <select id="1" data-val="" class="choose__wrapper_item-select-list">
+                  <option value="0" selected class="choose__wrapper_item-select-option">-/-</option>
+                  <option value="11.7" class="choose__wrapper_item-select-option">Айран Лактель</option>
+                  <option value="45.9" class="choose__wrapper_item-select-option">Вершки 10%</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Ананас 200г</option>
+                  <option value="30.6" class="choose__wrapper_item-select-option">Десерт Аерований Полуниця 200г</option>
+                  <option value="18.9" class="choose__wrapper_item-select-option">Десерт Віденські вафлі 130г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 200г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Банан-Шоколад 300г</option>
+                  <option value="40.5" class="choose__wrapper_item-select-option">Десерт Вишня 300г</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Десерт Вишня-Шоколад 300г</option>
+                  <option value="43.2" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі 350г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Персик 200г</option>
+                  <option value="25.2" class="choose__wrapper_item-select-option">Десерт Полуниця 200г</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Десерт Полуниця-Ківі-Шоколад 200г</option>
+                  <option value="18.45" class="choose__wrapper_item-select-option">Десерт Фанні 150г</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Ананас</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Закваска Л.Ягода</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ан.Диня</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Перс.Маракуя</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Полуниця</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Ківі</option>
+                  <option value="27" class="choose__wrapper_item-select-option">Йогурт стакан Банан-Лічі</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Вишня</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Л.Ягода</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Манго</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Персик</option>
+                  <option value="21.6" class="choose__wrapper_item-select-option">Йогурт 290г бут. Полуниця</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Персик</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Малина</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Ябл-Груша</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Банан</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Йогурт ЛокоМоко Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Вишня</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Персик</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Полуниця</option>
+                  <option value="10.35" class="choose__wrapper_item-select-option">Йогурт Фанні 115г Л.Ягода</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Персик</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Полун-Банан</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Малина</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Йогурт Фанні 0,7 Чорниця</option>
+                  <option value="34.65" class="choose__wrapper_item-select-option">Кефір Лактонія 0,78</option>
+                  <option value="13.05" class="choose__wrapper_item-select-option">Кефір Фанні 0,5%</option>
+                  <option value="15.3" class="choose__wrapper_item-select-option">Кефір Фанні 2,5%</option>
+                  <option value="42.3" class="choose__wrapper_item-select-option">Молоко Лактель 3,2% 1л</option>
+                  <option value="37.8" class="choose__wrapper_item-select-option">Молоко Лактель 2,5% 1л</option>
+                  <option value="38.7" class="choose__wrapper_item-select-option">Сир 9% Курага</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сир Шостка 150г Вершковий ст.</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Зелень</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Гриби</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир В.Корівка 70г Дружба</option>
+                  <option value="44.1" class="choose__wrapper_item-select-option">Сир В.Корівка 150г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Вершковий</option>
+                  <option value="14.44" class="choose__wrapper_item-select-option">Сир Президент 70г Гриби</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Вершковий</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Голандський</option>
+                  <option value="12.6" class="choose__wrapper_item-select-option">Сир Шостка 90г Дружба</option>
+                  <option value="11.6" class="choose__wrapper_item-select-option">Сир Шостка 70г Дружба</option>
+                  <option value="56.7" class="choose__wrapper_item-select-option">Сир Творожна Традиція 5% Флоу-Пак</option>
+                  <option value="63" class="choose__wrapper_item-select-option">Сир Творожна Традиція 9% Термо</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Вишня</option>
+                  <option value="9.9" class="choose__wrapper_item-select-option">Сирок глаз. Полуниця</option>
+                  <option value="32.4" class="choose__wrapper_item-select-option">Сметана п/е 15%</option>
+                  <option value="39.6" class="choose__wrapper_item-select-option">Сметана п/е 20%</option>
+                  <option value="36" class="choose__wrapper_item-select-option">Сметана стакан 15%</option>
+                  <option value="26" class="choose__wrapper_item-select-option">Сметана стакан 200г 20%</option>
+                  <option value="41.4" class="choose__wrapper_item-select-option">Сметана стакан 20%</option>
+              </select>
+               </div>
+
+               <button class="choose__wrapper_create-select laktalis">Добавить позицию</button>
+            </div>
+
+         
+
+           
+        </div>
+    </div>
+    
+</section>
+
+  <section class="result">
+    <div class="container">
+      
+      <div class="result__text">
+        <div class="result__text_title">Заказ</div>
+        <button class="result__text_btn">Просчитать сумму</button>
+        
+      </div>
+    </div>
+    <div class="result__up-element"></div>
+</section>
+<script src="../dist/js/app.min.js"></script>
+</body>
+</html>
